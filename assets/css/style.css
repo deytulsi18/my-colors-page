@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --glass: hsla(0, 0%, 100%, 0.25);
+  --glass-shadow: hsla(0, 0%, 0%, 0.25);
+}
+
+body {
+  margin: 0.5rem;
+  background-color: #005f8f;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  letter-spacing: -2.825px;
+  letter-spacing: -4px;
+}
+
+h1 > span {
+  text-shadow: 0 0 3px hsla(0, 0%, 0%, 1), 0 0 5px hsla(0, 0%, 0%, 0.75);
+  text-shadow: 0 0 1.5px hsla(0, 0%, 0%, 1), 0 0 3.5px hsla(0, 0%, 0%, 0.75);
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #005f8f;
+  background-color: var(--glass);
+  border: 2px solid rgba(255, 255, 255, 0.1) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px hsla(0, 0%, 0%, 0.5);
+  border-radius: 2.5px;
+  /* min-height: 95vh; */
+}
+
+.container-1 {
+  background-color: rgb(186, 104, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  max-width: fit-content;
+  margin-bottom: 0.5rem;
+  max-width: 400px;
+  box-shadow: 1px 1px 10px 1px hsla(0, 0%, 0%, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 2.5px;
+}
+
+.container-2 {
+  background-color: rgb(186, 104, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  max-width: fit-content;
+  max-width: 400px;
+  box-shadow: 1px 1px 10px 1px hsla(0, 0%, 0%, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 2.5px;
+}
+
+.container-1 > *,
+.container-2 > * {
+  box-shadow: 1px 1px 10px 1px hsla(0, 0%, 0%, 0.5),
+    inset 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: salmon;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.red {
+  background-color: #c81c39;
+}
+.blue {
+  background-color: #0047ab;
+}
+.yellow {
+  background-color: hsl(45, 100%, 60%);
+}
+.green {
+  background-color: #50c750;
+}
+.orange {
+  background-color: #ff8c00;
+}
+.violet {
+  background-color: #4b0082;
+}
+
+.white {
+  background-color: #eeeeee;
+}
+.black {
+  background-color: #222222;
+}
+.sky-blue {
+  background-color: #87ceeb;
+}
+.pink {
+  background-color: #aa336a;
+}
+.light-brown {
+  background-color: #ffd78c;
+}
+.grey {
+  background-color: #666666;
+}
+
+.dark {
+  background-color: #222222;
+}
+.light {
+  background-color: #eeeeee;
+}
+
+.font-color-red {
+  color: #c81c39;
+}
+.font-color-blue {
+  color: #0047ab;
+}
+.font-color-yellow {
+  color: hsl(45, 100%, 60%);
+}
+.font-color-green {
+  color: #50c750;
+}
+.font-color-orange {
+  color: #ff8c00;
+}
+.font-color-violet {
+  color: #4b0082;
+}
+.font-color-white {
+  color: #eee;
+}
